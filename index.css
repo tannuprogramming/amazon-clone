@@ -90,6 +90,19 @@ button:hover{
         padding: 2vmax;
         text-decoration: underline;
     }
+    button{
+        font-size: 2rem;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 100px;
+        /* padding-left: 5px; */
+        padding: 1vmax 2vmax;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: aquamarine;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -109,4 +122,5 @@ button:hover{
         padding: 2vmax;
         text-decoration: underline;
     }
+    
 }
